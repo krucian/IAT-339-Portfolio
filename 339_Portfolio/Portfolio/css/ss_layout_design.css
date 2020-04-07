@@ -1,0 +1,296 @@
+body, html {
+  height: 100%;
+  margin:0;
+}
+
+
+  h1{
+    /* margin-bottom: 30px; */
+    padding-top:1rem;
+    padding-bottom:0;
+    font-family:"gotham";
+    font-weight: 500;
+    /* color: white; */
+  }
+
+h2{
+padding-top:0;
+padding-bottom: .5rem;
+font-family:"gotham";
+font-weight: normal;
+text-decoration: none;
+/* color: white; */
+/* color: #68BED4; */
+}
+
+h3{
+margin-top: 20px;
+font-family:"gotham";
+font-weight: 500;
+/* color: white; */
+
+}
+
+
+h4{
+font-family:"gotham";
+font-weight: normal;
+color: white;
+font-size:18px;
+letter-spacing: 4px;
+width:100%;
+
+/* color: #68BED4 */
+/* color: #FFFFA1; */
+}
+
+h5{
+font-family:"gotham";
+font-weight: 300;
+}
+
+p{
+  font-family: "gotham";
+  font-weight: lighter;
+  word-wrap: break-word;
+  line-height: 1.6;
+  width:100%;
+  padding-bottom:.5rem;
+  color:white;
+}
+
+.fade_in{
+  /* position:relative; */
+  animation: animatebottom 0.5s;
+}
+
+@keyframes animatebottom {
+  from{
+    bottom:-700px;
+    opacity: 0;
+  }
+
+  to{
+    bottom:0;
+    opacity:1;
+  }
+}
+
+.arrow{
+  font-family: "gotham";
+  font-weight:300;
+  color:#2F2E2E;
+  font-size: 28px;
+}
+
+figure{
+  /* width:14rem; */
+  margin:0;
+  padding:0;
+  /* display: block;
+  margin-block-start: 1em;
+  margin-block-end:1em;
+  margin-inline-start:40px;
+  margin-inline-end:40px; */
+}
+
+
+figcaption {
+  font-family:"gotham";
+  font-weight:300;
+  font-size: 13px;
+  padding-top:0.5rem;
+  padding-bottom: 1rem;
+  width:18rem;
+  color: white;
+  /* padding-bottom:0.5rem; */
+}
+
+.middle_content{
+  padding:3.5em 5% 4em 5%;
+}
+
+#project1_content{
+  padding-left:25%;
+  padding-right:26%;
+  max-width: 50rem;
+  background-color: #2F2E2E;
+}
+
+.cover_img {
+  background-image: url("../images/SS_Design/layout_cover.png");
+}
+
+.cover_img{
+background-size:100%;
+  /* Full height */
+  height: 100%;
+  width:100%;
+  /* object-fit: contain; */
+
+  /* opacity: 0.85; */
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  animation: animatebottom 0.5s;
+
+}
+
+.caption{
+  font-family: "gotham";
+  font-weight: lighter;
+  position: absolute;
+  left:0;
+  top:50%;
+  width:100%;
+  text-align: center;
+  color: white;
+}
+
+.caption span.title{
+  background-color: #2F2E2E;
+  color: white;
+
+  border-radius: 5px;
+  padding-bottom: 3rem;
+  padding-top: 1.5rem;
+  padding-right:1rem;
+  padding-left:1rem;
+  font-size:3rem;
+  letter-spacing: 10px;
+}
+
+.subtitle{
+  margin-top:0.5rem;
+}
+
+.projecttext{
+  word-wrap: break-word;
+  line-height: 1.6;
+  max-width: 50rem;
+  font-family:"gotham";
+  font-weight: 300;
+}
+
+ul{
+    /* display: block; */
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 40px;
+    padding-inline-start: 40px;
+    /* padding-bottom:2rem; */
+}
+
+ul, li p{
+  color: white;
+}
+
+ul li{
+  font-family:"gotham";
+  font-weight: 300;
+}
+
+li{
+display:inline-block;
+float:left;
+padding-bottom:.5rem;
+
+}
+
+.toolskills{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.assets{
+  flex-direction: row;
+  max-width:15rem;
+}
+
+.assets3{
+  flex-direction: row;
+  max-width:15rem;
+  padding-bottom:3rem;
+}
+
+/* .processimage1{
+  display: flex;
+  flex-wrap: wrap; */
+  /* flex-wrap: wrap;
+  flex-direction: column;
+  width:14rem; */
+  /* got rid of flex direction to  get images beside each other */
+/* } */
+
+.imagebox{
+  /* display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  width:14rem; */
+
+  display: flex;
+  flex-direction:row-reverse;
+  flex-wrap:wrap-reverse;
+  align-content: center;
+  justify-content: center;
+
+  /* max-width: 15rem; */
+}
+
+.imageboxrow{
+  display:flex;
+  flex-direction: row;
+  /* flex:1; */
+  padding-left:5rem;
+}
+
+.logo2016{
+  display:flex;
+  flex-direction: row;
+  width:auto;
+  /* flex:50%; */
+  /* width: 14.5rem; */
+  height: 15rem;
+}
+
+.logo2012{
+display:flex;
+width:auto;
+/* flex:50%; */
+/* max-width:15rem; */
+height: 7rem;
+}
+
+/* .logo2016{
+  max-width:60%;
+} */
+
+.initialsketches{
+  /* display:flex;
+  flex-direction: row; */
+  /* max-width:20rem;
+  height: 24.3rem; */
+  /* padding-left:5rem; */
+}
+
+.imagecontainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project_image{
+  width: 100%;
+  margin-top:1.3rem;
+}
+
+.limited {
+  max-width: 30em;
+}
+.final_logo{
+  max-width:20rem;
+}

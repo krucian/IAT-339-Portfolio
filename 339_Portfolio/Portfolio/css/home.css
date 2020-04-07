@@ -1,0 +1,261 @@
+body, html {
+  height: 100%;
+  margin:0;
+}
+
+#about{
+padding-top:2rem;
+background-color: #2F2E2E;
+}
+
+#project_cards{
+  padding-top: 2rem;
+}
+
+.cover_img {
+  background-image: url("../images/Art/desert_journey.png");
+}
+
+.cover_img{
+  background-size:100%;
+  /* Full height */
+  height: 100%;
+  width:100%;
+  /* object-fit: contain; */
+
+  /* opacity: 0.85; */
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: animatebottom 0.5s;
+}
+
+.caption{
+  font-family: "gotham";
+  font-weight: lighter;
+  position: absolute;
+  left:0;
+  top:50%;
+  width:100%;
+  text-align: center;
+  color: white;
+}
+
+.caption span.title{
+  background-color: #2F2E2E;
+  color: white;
+
+  border-radius: 5px;
+  padding-bottom: 3rem;
+  padding-top: 1.5rem;
+  padding-right:1rem;
+  padding-left:1rem;
+  font-size:3rem;
+  letter-spacing: 10px;
+}
+
+.fade_in{
+  /* position:relative; */
+  animation: animatebottom 0.5s;
+}
+
+@keyframes animatebottom {
+  from{
+    bottom:-700px;
+    opacity: 0;
+  }
+
+  to{
+    bottom:0;
+    opacity:1;
+  }
+}
+
+.content{
+  background-color: #2F2E2E;
+  padding: 50px 80px;
+  text-align: center;
+}
+
+h1{
+  font-family:"gotham";
+  font-weight: normal;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+
+}
+
+h2{
+  font-family:"gotham";
+  font-weight: normal;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+
+/* .elements {
+
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: #68BED4;
+  padding-bottom: 2rem;
+
+} */
+
+/* #elements{
+  border-bottom: solid #68BED4;
+} */
+
+.content_box{
+  max-width:100rem;
+  margin: auto;
+  background-color: #2F2E2E;
+  padding-bottom: 3rem;
+}
+
+.bio {
+  font-family: "gotham";
+  font-weight: lighter;
+
+  text-align: center;
+  color: white;
+  line-height: 1.5rem;
+  max-width: 35rem;
+  margin:0;
+}
+
+.bio_textbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  line-height:1.7rem;
+}
+
+p{
+  font-family: "gotham";
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.arrow{
+  font-family: "gotham";
+  font-weight:300;
+  color:#2F2E2E;
+  font-size: 28px;
+}
+
+.container {
+  max-width: 1125px;
+  margin: 0 auto;
+
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.gallery-item {
+  overflow:hidden;
+  background-color:white;
+  width: 330px;
+  height: 265px;
+  margin: 10px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+  border-radius:5px;
+}
+
+.gallery-item:hover{
+    transform: scale(1.04);
+}
+
+.gallery-item img {
+  position: absolute;
+  border-radius:5px;
+  overflow:hidden;
+
+}
+
+.project_ss_logo img{
+  width: 250px;
+  height:265px;
+  margin-left: 2.5rem;
+}
+
+.project_layout_logo img{
+  padding-top:6.5rem;
+  width: 330px;
+  margin: 0;
+}
+
+.gallery_icon img{
+  padding-top:5.5rem;
+  width: 330px;
+  height:175px;
+  margin: 0;
+}
+
+.text-wrapper {
+
+  background: rgba(255, 255, 255, 0.6);
+  position: relative;
+  width: 330px;
+  height: 265px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  opacity: 1;
+}
+
+.text-wrapper:hover {
+  transition: all 0.4s ease;
+  background: rgba(255, 255, 255, 0.6);
+  opacity: 1;
+  border-radius:5px;
+
+}
+
+.title{
+  font-family: "gotham";
+  font-weight: lighter;
+  color: black;
+}
+
+.name {
+  font-family: "gotham";
+  font-weight: 300;
+  font-size: 1.5em;
+  color: black;
+}
+
+/* Because there is no hover on a touch devide, we need to move the text to the bottom of the
+image and display it by default */
+
+@media only screen and (max-width: 1024px) {
+  .text-wrapper {
+    opacity: 1;
+    justify-content: center;
+      background: rgba(255, 255, 255, 0.6);
+    /* text-shadow: 1px 1px 1px #000; */
+  }
+
+  .name{
+    color:black;
+  }
+  .title {
+    margin-bottom: 1em;
+    color: black;
+  }
+}
