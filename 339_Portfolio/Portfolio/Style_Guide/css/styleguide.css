@@ -1,0 +1,632 @@
+header{
+  background-color: #68BED4;
+  padding: 0rem;
+}
+
+nav{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+
+  background-color: white;
+  position: fixed;
+  /* overflow: hidden; */
+
+  width: 100%;
+  z-index:1;
+}
+/* .main_nav{
+  background-color:black;
+  margin:0;
+  padding:0;
+} */
+
+.main_nav a{
+  font-family:"gotham";
+  font-weight: 300;
+  color: black;
+  text-align:center;
+  font-size: 1rem;
+  padding: 1.5rem;
+  margin-left:1.5rem;
+  margin-right:1.5rem;
+  text-decoration: none;
+  /* border-bottom-style:none;
+  transition-property: color, border-bottom;
+  transition-duration: 0.25s; */
+}
+
+.main_nav a:hover{
+  color: rgb(124,185,232);
+  /* border-bottom: 2px solid #68BED4; */
+  /* light blue colour */
+}
+
+.main_nav a:active{
+  /* color: rgb(124,185,232); */
+  padding-bottom:1rem;
+  border-bottom: 2px solid #68BED4;
+}
+
+/* TRYING TO MOVE LOGO TO THE  */
+.nav_logo{
+  /* padding: 0.55rem 1.5rem 0 1.5rem; */
+  /* padding-right:30rem; */
+  height:3.5rem;
+  width:auto;
+}
+
+/* nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+
+nav ul li a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li{
+  float: right;
+  padding:0;
+  margin: 0;
+}
+
+nav div:first-child{
+  background: rgb(255, 255, 255);
+  line-height: 0;
+  padding: .8rem 0rem;
+  text-align: center;
+}
+
+
+nav div:first-child, nav ul{
+  margin:0;
+}
+
+nav ul li a:hover{
+  color: rgb(124,185,232);
+  /* light blue colour */
+/* } */
+
+/* @media only screen and (min-width: 30em){
+  nav{
+      display:flex;
+      justify-content: space-between;
+      background:rgb(255, 255, 255);
+      align-items: center;
+  }
+
+  nav ul{
+      display:flex;
+      align-items: center;
+      background:none;
+
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      float: right;
+      width: 70%;
+      text-align: center;
+      overflow: hidden;
+      background-color: #FFFFFF;
+  }
+
+  nav di:first-child h1{
+      padding:0;
+      margin-left: 1rem;
+  }
+
+  nav div:first-child img{
+      height:3rem;
+      width:5rem;
+  }
+  nav ul li{
+      border-bottom: none;
+      flex: 1 0 auto;
+  }
+  nav ul li a{
+      padding:1.2rem 1rem;
+  }
+}  */
+
+  body{
+    font-family: "gotham";
+    font-size: 17px;
+    background-color: #2F2E2E;
+
+    padding:0;
+    margin:0;
+
+  }
+
+  .my_title p{
+    color: white;
+  }
+
+  .content{
+    padding-top:7rem;
+    margin-left:4rem;
+    margin-right:4rem;
+    color: white;
+  }
+
+/* FIXED NAV BAR COVERS SOME STUFF OF ANCHOR POINTS */
+  .nav_link{
+    padding-top:10rem;
+  }
+
+  .element {
+    /* padding-bottom: 2rem; */
+    border-top-width: 0.15rem;
+    border-top-style: solid;
+    border-top-color: #68BED4;
+    padding-bottom: 2rem;
+  }
+
+  p{
+    word-wrap: break-word;
+    line-height: 1.6;
+    width:100%;
+    font-family:"gotham";
+    font-weight: 300;
+    padding-bottom:.5rem;
+  }
+
+   .bio{
+
+    word-wrap: break-word;
+    line-height: 1.6;
+    max-width: 50rem;
+    font-family:"gotham";
+    font-weight: 300;
+  }
+
+  .lightblue{
+    padding: 1rem;
+    width: auto;
+    background-color: #68BED4;
+  }
+  .pblue{
+    color: white;
+  }
+  .white{
+    padding:1rem;
+    width:auto;
+    background-color: white;
+  }
+  .pwhite{
+    color: #68BED4;
+  }
+
+  .yellow{
+    padding:1rem;
+    width:auto;
+    background-color: #FFFFA1;
+  }
+  .pyellow{
+    color: black;
+  }
+
+  .grey{
+    padding:1rem;
+    width:auto;
+    background-color: #2F2E2E;
+  }
+  .pgrey{
+    color: #FFFFA1;
+  }
+
+  .black{
+    padding:1rem;
+    width:auto;
+    background-color: black;
+  }
+
+  .pblack{
+    color: white;
+  }
+
+  h1{
+    /* margin-bottom: 30px; */
+    padding-top:1rem;
+    padding-bottom:0;
+    font-family:"gotham";
+    font-weight: 500;
+  }
+
+  .typography{
+    padding:0;
+    margin:0;
+    font-family:"gotham";
+    font-weight: 300;
+
+  }
+
+.projecttext{
+  word-wrap: break-word;
+  line-height: 1.6;
+  max-width: 50rem;
+  font-family:"gotham";
+  font-weight: 300;
+}
+
+ul li{
+  font-family:"gotham";
+  font-weight: 300;
+}
+
+.toolskills{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.assets{
+  flex-direction: row;
+  max-width:15rem;
+}
+
+.processimage1{
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-wrap: wrap;
+  flex-direction: column;
+  width:14rem; */
+  /* got rid of flex direction to  get images beside each other */
+}
+
+.imagebox{
+  display:flex;
+  flex-direction: column;
+  width:14rem;
+  /* max-width: 15rem; */
+}
+
+.imageboxrow{
+  display:flex;
+  flex-direction: row;
+  /* flex:1; */
+  padding-left:5rem;
+}
+
+.logo2016{
+  display:flex;
+  flex-direction: column;
+  flex:50%;
+  width: 14.5rem;
+  height: 15rem;
+}
+
+.logo2012{
+display:flex;
+flex:50%;
+max-width:15rem;
+height: 7rem;
+}
+
+.initialsketches{
+  /* display:flex;
+  flex-direction: row; */
+  max-width:20rem;
+  height: 24.3rem;
+  /* padding-left:5rem; */
+}
+
+.imagecontainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imagecontainer2{
+  display:flex;
+  flex-direction: row;
+  /* flex:1; */
+  padding-left:10rem;
+}
+
+.logo_arrangement{
+  max-width: 18rem;
+
+}
+
+.letterexperiment{
+max-width:25rem;
+}
+
+.websitepalette{
+  width: 50rem;
+  padding-top:2rem;
+}
+
+.iteration{
+  width:50rem;
+}
+
+.final_logo{
+  max-width:20rem;
+}
+
+/* @media(min-width:15rem) {
+  .imageboxrow{
+    padding: 0;
+  }
+
+  .initialsketches{
+    padding:0;
+  }
+} */
+
+/* Project 2 */
+.draftlayout{
+  height:42rem;
+}
+
+.finalpackages{
+  width:50rem;
+}
+
+p{
+  font-family: "gotham";
+  font-weight: lighter;
+
+}
+/* testing */
+
+.project_ss_logo img{
+  width: 250px;
+  height:265px;
+  margin-left: 2.5rem;
+}
+
+.project_ss_layout img{
+  padding-top:6.5rem;
+  width: 330px;
+  margin: 0;
+}
+
+.gallery_icon img{
+  padding-top:5.5rem;
+  width: 330px;
+  height:175px;
+  margin: 0;
+}
+
+.container {
+  max-width: 1125px;
+  margin: 0 auto;
+
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.gallery-item {
+  overflow:hidden;
+  background-color:white;
+  width: 330px;
+  height: 265px;
+  margin: 10px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+  border-radius:5px;
+}
+
+.gallery-item:hover{
+    transform: scale(1.04);
+}
+
+.gallery-item img {
+  position: absolute;
+  border-radius:5px;
+  overflow:hidden;
+
+}
+
+.text-wrapper {
+
+  background: rgba(255, 255, 255, 0.6);
+  position: relative;
+  width: 330px;
+  height: 265px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  opacity: 1;
+}
+
+.text-wrapper:hover {
+  transition: all 0.4s ease;
+  background: rgba(255, 255, 255, 0.6);
+  opacity: 1;
+  border-radius:5px;
+
+}
+
+.title{
+  font-family: "gotham";
+  font-weight: lighter;
+  color: black;
+}
+
+.name {
+  font-family: "gotham";
+  font-weight: 300;
+  font-size: 1.5em;
+  color: black;
+}
+
+
+
+/* Because there is no hover on a touch devide, we need to move the text to the bottom of the image and display it by default */
+
+@media only screen and (max-width: 1024px) {
+  .text-wrapper {
+    opacity: 1;
+    justify-content: center;
+      background: rgba(255, 255, 255, 0.6);
+    /* text-shadow: 1px 1px 1px #000; */
+  }
+
+  .name{
+    color:black;
+  }
+  .title {
+    margin-bottom: 1em;
+    color: black;
+  }
+}
+
+/* testing */
+/* .listing{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.listing .productcard button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgb(124,185,232);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .listing .productcard button:hover {
+    opacity: 0.7;
+  	color: black;
+    background-color: rgb(255,255,161);
+  }
+
+   .listing .productcard{
+    flex:1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 1.5em;
+    text-align: center;
+    font-family: "gotham";
+
+  }
+
+  .price .productcard{
+    font-size: 22px;
+  } */
+
+/* when it reaches 900px, change listing to column format */
+/* @media(max-width: 900px;){
+  .listing{
+    flex-flow: column wrap;
+  }
+} */
+
+figure{
+  width:14rem;
+  margin:0;
+  padding:0;
+}
+
+figcaption {
+  font-family:"gotham";
+  font-weight:300;
+  font-size: 13px;
+  padding-top:0.5rem;
+  padding-bottom: 1rem;
+  width:25rem;
+  /* padding-bottom:0.5rem; */
+}
+
+/* .project_card{
+  overflow: hidden;
+  width:20em;
+  height:26em;
+  margin:0.75em;
+  border-radius: 5px;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+  transition-property: box-shadow, transform;
+  transition-duration: 0.3s;
+} */
+    li.sub ul {
+    list-style: none;
+    position: absolute;
+    /* top: -1000em; */
+    left: 0px;
+    }
+
+
+    li.sub ul li a {
+    display: inline;
+    }
+
+    li.sub:hover ul {
+    top: 3em;
+    }
+
+    li{
+    display:inline-block;
+    }
+
+  h2{
+  padding-top:0;
+  padding-bottom: .5rem;
+  font-family:"gotham";
+  font-weight: normal;
+  text-decoration: none;
+  /* color: #68BED4; */
+}
+
+h3{
+  margin-top: 20px;
+  font-family:"gotham";
+  font-weight: 500;
+
+}
+
+
+h4{
+  font-family:"gotham";
+  font-weight: normal;
+  /* color: #68BED4 */
+  /* color: #FFFFA1; */
+}
+
+h5{
+  font-family:"gotham";
+  font-weight: 300;
+}
+
+
+.footer{
+  overflow: auto;
+  margin:0;
+
+  padding-top:0.5rem;
+  padding-bottom:0.5rem;
+  height:auto;
+  width:auto;
+
+  background-color: white;
+}
+
+.footertext{
+  font-family: "gotham";
+  font-weight: 300;
+  color: black;
+  text-align:center;
+
+}
