@@ -108,12 +108,13 @@ figcaption {
 
 .middle_content{
   padding:3.5em 5% 4em 5%;
+  width:auto;
 }
 
 #project1_content{
   padding-left:25%;
   padding-right:26%;
-  max-width: 50rem;
+  /* max-width: 50rem; */
   background-color: #2F2E2E;
 }
 
